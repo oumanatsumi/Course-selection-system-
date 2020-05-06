@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+</head>
+<body id="body" >
+<div style="width: 100%;height: 100% ">
+    <div style="z-index: 1;position: absolute;left: 1px;top: 1px"><img src="BG/74426806_p0.jpg" style="width: 100%;height: 100%;"><img/></div>
+    <div style="width: 400px;height: 250px; border: 1px solid #000000;margin-left: 38%;margin-top: 8% ;z-index: 10;position: relative;border-radius: 10px">
+        <h2 style="color: #000000;margin-left: 45%;margin-top: 10px">注册</h2>
+        <div style="margin-top: 6%;margin-left: 18%">
+            <form action="RegisterServlet" method="get">
+                <p><b>账号：</b><input id="account"  name="uname" placeholder="请输入账号" type="text" style="width: 200px;height: 25px;border: 1px solid #000000;"></p>
+                <p><b>密码：</b><input id="password" name="pwd" placeholder="请输入密码" type="password" style="width: 200px;height: 25px;border: 1px solid #000000"></p>
+                <p><b>确认密码：</b><input id="Confirmpassword" name="confirmpwd" placeholder="请确认密码" type="password" style="width: 170px;height: 25px;border: 1px solid #000000"></p>
+                <p><input id="Register" type="submit" value="确认注册" style="height: 35px;width: 150px;margin-left: 18%;border-radius: 5px;background: none;border: 1px solid black"
+                          onmouseover="this.style.opacity = 0.6" onmouseout="this.style.opacity = 1"></p>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
